@@ -1,0 +1,21 @@
+<!--pages/logins/logins.wxml-->
+<view class="weui-cells weui-cells_after-title">
+    <view class="weui-cell ">
+        <view class="weui-cell__hd">
+            <view class="weui-label">账号</view>
+        </view>
+        <view class="weui-cell__bd">
+            <input class="weui-input" placeholder="name" bindinput="input_name" type="text"/>
+        </view>
+    </view>
+    <view class="weui-cell ">
+        <view class="weui-cell__hd">
+            <view class="weui-label">密码</view>
+        </view>
+        <view class="weui-cell__bd">
+            <input placeholder="password" bindinput="input_pwds" type="password"/>
+        </view>
+    </view>
+</view>
+<button type="primary" bindtap="btns">login</button>
+ 
